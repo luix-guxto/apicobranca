@@ -14,12 +14,12 @@ while a < t+1:
     vecimento = aba.cell(row=a, column=2).value
     vecimento = vecimento.strftime('%d/%m/%Y')
     telefone = aba.cell(row=a, column=3).value
-    celular = aba.cell(row=a, column=4).value
+    cdbarras = aba.cell(row=a, column=4).value
     y = {
         'nome': nome,
         'vencimento': vecimento,
         'telefone': telefone,
-        'celular': celular
+        'codbarras': cdbarras
     }
     clientes[a-2] = y
     a += 1

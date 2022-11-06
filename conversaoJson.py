@@ -3,7 +3,7 @@ import json
 import os
 import datetime as dt
 
-# Carrega o arquivo de planilha.xlsx
+# Carrega o arquivo de planilha oi
 planilha = op.load_workbook('cobranca.xlsx')
 aba = planilha.active
 t = aba.max_row
